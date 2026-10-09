@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --obsidian-deep: #070B14;
+    --surface-midnight: #0B111E;
+    --surface: #0d1320;
+    --surface-elevated: #131C2E;
+    --surface-container: #1a1f2d;
+    --surface-container-high: #242a38;
+    --surface-container-low: #161b29;
+    --surface-container-lowest: #080e1b;
+    --champagne-gold: #D4AF37;
+    --champagne-light: #F3E5AB;
+    --rera-emerald: #10B981;
+    --ivory-text: #F8FAFC;
+    --pearl-muted: #94A3B8;
+    --slate-border: #1E293B;
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #0d1320;
+    color: #dde2f5;
+    font-family: 'Manrope', -apple-system, BlinkMacSystemFont, sans-serif;
+    scroll-behavior: smooth;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #070B14;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #1E293B;
+    border-radius: 3px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #D4AF37;
+  }
+}
+
+.font-headline {
+  font-family: 'Noto Serif', serif;
+}
+
+.font-display {
+  font-family: 'Space Grotesk', monospace, sans-serif;
+}
+
+.font-body {
+  font-family: 'Manrope', sans-serif;
+}
+
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
